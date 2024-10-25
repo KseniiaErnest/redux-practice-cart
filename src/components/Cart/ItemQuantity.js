@@ -13,7 +13,7 @@ export default function ItemQuantity( {quantity, setQuantity} ) {
   }
 
   return (
-    <div>
+    <div className='item-quantity--container'>
       <button onClick={addQuantity}>+</button>
       <p>{quantity}</p>
       <button onClick={removeQuantity}>-</button>
