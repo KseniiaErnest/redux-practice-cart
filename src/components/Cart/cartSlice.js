@@ -25,11 +25,14 @@ addToCart(state, action) {
       totalPrice: action.payload.totalPrice,
     })
   }
+},
+removeFromCart(state, action) {
+ state.cartItems = state.cartItems.filter((item) => item.dessertId !== action.payload.dessertToRemove.id)
 }
   }
 
 })
 
 export default cartSlice.reducer;
-export const { addToCart } = cartSlice.actions;
+export const { addToCart, removeFromCart } = cartSlice.actions;
 export const cartItemsSlice = state => state.cart.cartItems;

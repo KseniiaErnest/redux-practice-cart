@@ -28,17 +28,20 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 2rem;
 }
 
-.desserts-container {
+/* .desserts-container {
   max-width: 50rem;
-}
+} */
 
 .desserts-list {
   display: grid;
-  grid-template-columns: repeat(3, 15.65rem);
+  /* grid-template-columns: repeat(3, 15.65rem); */
+  grid-template-columns: repeat(auto-fill, minmax(15.65rem, 1fr));
   gap: 1.5rem;
+  max-width: 50rem;
 }
 
 .dessert-container {
@@ -51,6 +54,7 @@ body {
 }
 
 .dessert-container img {
+  width: 100%;
   max-width: 15.65rem;
   border-radius: 10px;
 }
@@ -88,15 +92,20 @@ body {
 
 .cart-container {
   background-color: hsl(20, 50%, 98%);
-  width: 24rem;
-  max-height: 18.69rem;
+  min-width: 24rem;
+  min-height: 18.69rem;
   padding: 1.5rem;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
+
 .cart-container > h2 {
   color: #c73b0f;
   margin-bottom: 0.5rem;
+}
+
+.full-cart--container {
+  background-color: hsl(20, 50%, 98%);
 }
 
 .empty-cart-container {
@@ -115,6 +124,10 @@ body {
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
+
+/* .test {
+  overflow-y: auto;
+} */
 
 .border-bottom {
   border-bottom: 1px solid #ad8a8531;
@@ -156,8 +169,6 @@ body {
   font-weight: 600;
 }
 
-
-
 .item-quantity--container {
   display: flex;
   align-items: center;
@@ -173,4 +184,43 @@ body {
   border-radius: 10px;
   border: 1px solid #ad8a85;
   cursor: pointer;
+}
+
+/*////////////////*/
+
+@media all and (max-width: 76.6rem) {
+  .desserts-list {
+    display: grid;
+    grid-template-columns: repeat(2, 15.65rem);
+    gap: 1.5rem;
+  }
+}
+
+@media all and (max-width: 55rem) {
+  .main-container {
+    max-width: 76rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: flex-start; */
+    gap: 2rem;
+  }
+
+
+  .desserts-list {
+    /* grid-template-columns: repeat(3, 15.65rem); */
+    grid-template-columns: repeat(auto-fill, minmax(15.65rem, 1fr));
+  
+  }
+
+
+  .cart-container {
+    background-color: hsl(20, 50%, 98%);
+    min-width: 100%;
+    min-height: 18.69rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
 }
