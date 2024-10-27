@@ -42,6 +42,8 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(15.65rem, 1fr));
   gap: 1.5rem;
   max-width: 50rem;
+  justify-items: center;
+  align-items: center;
 }
 
 .dessert-container {
@@ -55,7 +57,7 @@ body {
 
 .dessert-container img {
   width: 100%;
-  max-width: 15.65rem;
+  max-width: 20.4rem;
   border-radius: 10px;
 }
 
@@ -207,13 +209,10 @@ body {
     gap: 2rem;
   }
 
-
   .desserts-list {
     /* grid-template-columns: repeat(3, 15.65rem); */
-    grid-template-columns: repeat(auto-fill, minmax(15.65rem, 1fr));
-  
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
   }
-
 
   .cart-container {
     background-color: hsl(20, 50%, 98%);
@@ -224,3 +223,29 @@ body {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   }
 }
+
+@media all and (max-width: 37.5rem) {
+  .desserts-list {
+    grid-template-columns: repeat(2, 14rem);
+  }
+
+  .main-container {
+   align-items: center;
+    
+  }
+  
+}
+
+@media all and (max-width: 31.5rem) {
+  .desserts-list {
+    grid-template-columns: repeat(1, 20.5rem);
+  }
+
+  /* .dessert-container img {
+    width: 100%;
+    max-width: 15.65rem;
+    
+  }
+   */
+}
+
