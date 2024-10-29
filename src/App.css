@@ -32,9 +32,27 @@ body {
   gap: 2rem;
 }
 
-/* .desserts-container {
-  max-width: 50rem;
-} */
+.desserts-container--head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.filter-container button {
+  border: none;
+  background-color: hsl(13, 31%, 94%);
+  cursor: pointer;
+}
+
+.filter-container button img {
+  width: 2rem;
+  height: 2rem;
+}
 
 .desserts-list {
   display: grid;
@@ -188,6 +206,43 @@ body {
   cursor: pointer;
 }
 
+.cuisine-modal--container {
+  position: fixed;
+  width: 27rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f5eeec;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.cuisine-modal--container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  column-gap: 2rem;
+}
+
+.cuisine-modal--container input {
+  margin-right: 0.5rem;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
 /*////////////////*/
 
 @media all and (max-width: 76.6rem) {
@@ -230,10 +285,8 @@ body {
   }
 
   .main-container {
-   align-items: center;
-    
+    align-items: center;
   }
-  
 }
 
 @media all and (max-width: 31.5rem) {
@@ -248,4 +301,3 @@ body {
   }
    */
 }
-
