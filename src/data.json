@@ -107,5 +107,136 @@
         "category": "Panna Cotta",
         "price": 6.50,
         "cuisine": "Italian"
-     }
+     },
+     {
+        "id": 10,
+        "image": {
+          "thumbnail": "./assets/images/image-mochi-thumbnail.jpg",
+          "mobile": "./assets/images/image-mochi-mobile.jpg",
+          "tablet": "./assets/images/image-mochi-tablet.jpg",
+          "desktop": "./assets/images/image-mochi-desktop.jpg"
+        },
+        "name": "Assorted Mochi",
+        "category": "Mochi",
+        "price": 5.00,
+        "cuisine": "Japanese"
+      },
+      {
+        "id": 11,
+        "image": {
+          "thumbnail": "./assets/images/image-dango-thumbnail.jpg",
+          "mobile": "./assets/images/image-dango-mobile.jpg",
+          "tablet": "./assets/images/image-dango-tablet.jpg",
+          "desktop": "./assets/images/image-dango-desktop.jpg"
+        },
+        "name": "Three-Color Dango",
+        "category": "Dango",
+        "price": 3.50,
+        "cuisine": "Japanese"
+      },
+      {
+        "id": 12,
+        "image": {
+          "thumbnail": "./assets/images/image-egg-tart-thumbnail.jpg",
+          "mobile": "./assets/images/image-egg-tart-mobile.jpg",
+          "tablet": "./assets/images/image-egg-tart-tablet.jpg",
+          "desktop": "./assets/images/image-egg-tart-desktop.jpg"
+        },
+        "name": "Egg Tart",
+        "category": "Tart",
+        "price": 2.50,
+        "cuisine": "Chinese"
+      },
+      {
+        "id": 13,
+        "image": {
+          "thumbnail": "./assets/images/image-mango-pudding-thumbnail.jpg",
+          "mobile": "./assets/images/image-mango-pudding-mobile.jpg",
+          "tablet": "./assets/images/image-mango-pudding-tablet.jpg",
+          "desktop": "./assets/images/image-mango-pudding-desktop.jpg"
+        },
+        "name": "Mango Pudding",
+        "category": "Pudding",
+        "price": 4.00,
+        "cuisine": "Chinese"
+      },
+      {
+        "id": 14,
+        "image": {
+          "thumbnail": "./assets/images/image-apple-strudel-thumbnail.jpg",
+          "mobile": "./assets/images/image-apple-strudel-mobile.jpg",
+          "tablet": "./assets/images/image-apple-strudel-tablet.jpg",
+          "desktop": "./assets/images/image-apple-strudel-desktop.jpg"
+        },
+        "name": "Apple Strudel",
+        "category": "Strudel",
+        "price": 5.00,
+        "cuisine": "Austrian"
+      },
+      {
+        "id": 15,
+        "image": {
+          "thumbnail": "./assets/images/image-black-forest-cake-thumbnail.jpg",
+          "mobile": "./assets/images/image-black-forest-cake-mobile.jpg",
+          "tablet": "./assets/images/image-black-forest-cake-tablet.jpg",
+          "desktop": "./assets/images/image-black-forest-cake-desktop.jpg"
+        },
+        "name": "Black Forest Cake",
+        "category": "Cake",
+        "price": 6.00,
+        "cuisine": "German"
+      },
+      {
+        "id": 16,
+        "image": {
+          "thumbnail": "./assets/images/image-flan-thumbnail.jpg",
+          "mobile": "./assets/images/image-flan-mobile.jpg",
+          "tablet": "./assets/images/image-flan-tablet.jpg",
+          "desktop": "./assets/images/image-flan-desktop.jpg"
+        },
+        "name": "Caramel Flan",
+        "category": "Flan",
+        "price": 4.00,
+        "cuisine": "Mexican"
+      },
+      {
+        "id": 17,
+        "image": {
+          "thumbnail": "./assets/images/image-rasgulla-thumbnail.jpg",
+          "mobile": "./assets/images/image-rasgulla-mobile.jpg",
+          "tablet": "./assets/images/image-rasgulla-tablet.jpg",
+          "desktop": "./assets/images/image-rasgulla-desktop.jpg"
+        },
+        "name": "Rasgulla",
+        "category": "Sweets",
+        "price": 3.00,
+        "cuisine": "Indian"
+      },
+      {
+        "id": 18,
+        "image": {
+          "thumbnail": "./assets/images/image-cannoli-thumbnail.jpg",
+          "mobile": "./assets/images/image-cannoli-mobile.jpg",
+          "tablet": "./assets/images/image-cannoli-tablet.jpg",
+          "desktop": "./assets/images/image-cannoli-desktop.jpg"
+        },
+        "name": "Ricotta Cannoli",
+        "category": "Cannoli",
+        "price": 4.50,
+        "cuisine": "Italian"
+      },
+      {
+        "id": 19,
+        "image": {
+          "thumbnail": "./assets/images/image-churros-thumbnail.jpg",
+          "mobile": "./assets/images/image-churros-mobile.jpg",
+          "tablet": "./assets/images/image-churros-tablet.jpg",
+          "desktop": "./assets/images/image-churros-desktop.jpg"
+        },
+        "name": "Churros with Chocolate",
+        "category": "Churros",
+        "price": 3.50,
+        "cuisine": "Spanish"
+      }
+      
 ]

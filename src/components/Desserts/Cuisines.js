@@ -76,10 +76,76 @@ export default function Cuisines({ toggleModal }) {
             />
             American
           </label>
-          {/* <label>
-          <input type="radio" name="cuisine" value="Italian" onChange={(e) => handleCuisineChoice(e)}/>
-          Italian
-        </label> */}
+          <label>
+            <input
+              type="radio"
+              name="cuisine"
+              value="Japanese"
+              checked={cuisine === "Japanese"}
+              onChange={(e) => handleCuisineChoice(e)}
+            />
+            Japanese
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="cuisine"
+              value="Chinese"
+              checked={cuisine === "Chinese"}
+              onChange={(e) => handleCuisineChoice(e)}
+            />
+            Chinese
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="cuisine"
+              value="Austrian"
+              checked={cuisine === "Austrian"}
+              onChange={(e) => handleCuisineChoice(e)}
+            />
+            Austrian
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="cuisine"
+              value="German"
+              checked={cuisine === "German"}
+              onChange={(e) => handleCuisineChoice(e)}
+            />
+            German
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="cuisine"
+              value="Mexican"
+              checked={cuisine === "Mexican"}
+              onChange={(e) => handleCuisineChoice(e)}
+            />
+            Mexican
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="cuisine"
+              value="Indian"
+              checked={cuisine === "Indian"}
+              onChange={(e) => handleCuisineChoice(e)}
+            />
+            Indian
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="cuisine"
+              value="Spanish"
+              checked={cuisine === "Spanish"}
+              onChange={(e) => handleCuisineChoice(e)}
+            />
+            Spanish
+          </label>
         </form>
         <button className="item-remove--btn" onClick={toggleModal}>
           <svg
