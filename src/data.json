@@ -114,7 +114,7 @@
           "thumbnail": "./assets/images/image-mochi-thumbnail.jpg",
           "mobile": "./assets/images/image-mochi-mobile.jpg",
           "tablet": "./assets/images/image-mochi-tablet.jpg",
-          "desktop": "./assets/images/image-mochi-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Assorted Mochi",
         "category": "Mochi",
@@ -127,7 +127,7 @@
           "thumbnail": "./assets/images/image-dango-thumbnail.jpg",
           "mobile": "./assets/images/image-dango-mobile.jpg",
           "tablet": "./assets/images/image-dango-tablet.jpg",
-          "desktop": "./assets/images/image-dango-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Three-Color Dango",
         "category": "Dango",
@@ -140,7 +140,7 @@
           "thumbnail": "./assets/images/image-egg-tart-thumbnail.jpg",
           "mobile": "./assets/images/image-egg-tart-mobile.jpg",
           "tablet": "./assets/images/image-egg-tart-tablet.jpg",
-          "desktop": "./assets/images/image-egg-tart-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Egg Tart",
         "category": "Tart",
@@ -153,7 +153,7 @@
           "thumbnail": "./assets/images/image-mango-pudding-thumbnail.jpg",
           "mobile": "./assets/images/image-mango-pudding-mobile.jpg",
           "tablet": "./assets/images/image-mango-pudding-tablet.jpg",
-          "desktop": "./assets/images/image-mango-pudding-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Mango Pudding",
         "category": "Pudding",
@@ -166,7 +166,7 @@
           "thumbnail": "./assets/images/image-apple-strudel-thumbnail.jpg",
           "mobile": "./assets/images/image-apple-strudel-mobile.jpg",
           "tablet": "./assets/images/image-apple-strudel-tablet.jpg",
-          "desktop": "./assets/images/image-apple-strudel-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Apple Strudel",
         "category": "Strudel",
@@ -179,7 +179,7 @@
           "thumbnail": "./assets/images/image-black-forest-cake-thumbnail.jpg",
           "mobile": "./assets/images/image-black-forest-cake-mobile.jpg",
           "tablet": "./assets/images/image-black-forest-cake-tablet.jpg",
-          "desktop": "./assets/images/image-black-forest-cake-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Black Forest Cake",
         "category": "Cake",
@@ -192,7 +192,7 @@
           "thumbnail": "./assets/images/image-flan-thumbnail.jpg",
           "mobile": "./assets/images/image-flan-mobile.jpg",
           "tablet": "./assets/images/image-flan-tablet.jpg",
-          "desktop": "./assets/images/image-flan-desktop.jpg"
+          "desktop":"./assets/images/photo-is-coming.jpg"
         },
         "name": "Caramel Flan",
         "category": "Flan",
@@ -205,7 +205,7 @@
           "thumbnail": "./assets/images/image-rasgulla-thumbnail.jpg",
           "mobile": "./assets/images/image-rasgulla-mobile.jpg",
           "tablet": "./assets/images/image-rasgulla-tablet.jpg",
-          "desktop": "./assets/images/image-rasgulla-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Rasgulla",
         "category": "Sweets",
@@ -218,7 +218,7 @@
           "thumbnail": "./assets/images/image-cannoli-thumbnail.jpg",
           "mobile": "./assets/images/image-cannoli-mobile.jpg",
           "tablet": "./assets/images/image-cannoli-tablet.jpg",
-          "desktop": "./assets/images/image-cannoli-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Ricotta Cannoli",
         "category": "Cannoli",
@@ -231,7 +231,7 @@
           "thumbnail": "./assets/images/image-churros-thumbnail.jpg",
           "mobile": "./assets/images/image-churros-mobile.jpg",
           "tablet": "./assets/images/image-churros-tablet.jpg",
-          "desktop": "./assets/images/image-churros-desktop.jpg"
+          "desktop": "./assets/images/photo-is-coming.jpg"
         },
         "name": "Churros with Chocolate",
         "category": "Churros",
