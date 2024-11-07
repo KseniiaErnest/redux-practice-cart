@@ -17,7 +17,7 @@ export default function Filter() {
       <h3>Cuisine:</h3>
       <p>{cuisine}</p>
       <button onClick={toggleModal}>
-        <img src={"/assets/images/icons8-filter-50.png"} alt="filter" />
+        <img src={"assets/images/icons8-filter-50.png"} alt="filter" />
       </button>
 
       {isModalOpen && <Cuisines toggleModal={toggleModal} />}

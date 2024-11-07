@@ -41,8 +41,8 @@ setCurrentPage(currentPage - 1);
     <Filter />
     </div>
     <div className='btn-page--container'>
-      <button className='btn-page btn--clicked' onClick={handlePrevPage} disabled={currentPage === 1}><img className='btn-page--img' src={"/assets/images/icons8-left-50.png"} alt='Previous icon'/></button>
-      <button className='btn-page btn--clicked' onClick={(handleNextPage)} disabled={currentPage === totalPages}><img className='btn-page--img' src={"/assets/images/icons8-right-50.png"} alt='Next icon'/></button>
+      <button className='btn-page btn--clicked' onClick={handlePrevPage} disabled={currentPage === 1}><img className='btn-page--img' src={"assets/images/icons8-left-50.png"} alt='Previous icon'/></button>
+      <button className='btn-page btn--clicked' onClick={(handleNextPage)} disabled={currentPage === totalPages}><img className='btn-page--img' src={"assets/images/icons8-right-50.png"} alt='Next icon'/></button>
       </div>
       <ul className='desserts-list'>
         {paginatedData.map((dessert) => (
